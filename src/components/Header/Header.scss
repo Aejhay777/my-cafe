@@ -1,0 +1,21 @@
+.logo {
+    height: 50px;
+}
+
+.links {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    transition: 1s;
+    &:hover {
+       transform: scale(1.2);
+    }
+}
+
+.toggle {
+    color: white;
+}
+
+.Navbar {
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}

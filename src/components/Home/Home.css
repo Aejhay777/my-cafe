@@ -1,0 +1,64 @@
+.home--container {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../../assets/background.jpg);
+  background-position: center;
+}
+
+.home--container h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin-top: 250px;
+  padding-left: 50px;
+}
+
+.home--container .subtext {
+  margin-top: 600px;
+  padding-left: 50px;
+}
+
+.home--container .subtext .blockquote {
+  color: white;
+}
+
+.home--container .subtext .blockquote-footer {
+  color: #f3e8e8;
+}
+
+/* =================== MEDIA Queries (Medium Devices) ===================== */
+@media screen and (max-width: 1024px) {
+  .home--container h1 {
+    font-size: 130px;
+    margin-top: 300px;
+  }
+  .home--container .subtext {
+    margin-top: 950px;
+    padding-left: 10px;
+  }
+  .home--container .subtext .blockquote {
+    font-size: 30px;
+  }
+  .home--container .subtext .blockquote-footer {
+    font-size: 30px;
+  }
+}
+
+/* =================== MEDIA Queries (Small Devices) ===================== */
+@media screen and (max-width: 600px) {
+  .home--container h1 {
+    font-size: 70px;
+    margin-top: 300px;
+    margin-left: -15px;
+  }
+  .home--container .subtext {
+    margin-top: 150px;
+    padding-left: 40px;
+  }
+  .home--container .subtext .blockquote {
+    font-size: 25px;
+  }
+  .home--container .subtext .blockquote-footer {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

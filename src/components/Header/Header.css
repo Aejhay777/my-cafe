@@ -1,0 +1,26 @@
+.logo {
+  height: 50px;
+}
+
+.links {
+  margin-left: 10px;
+  margin-top: 10px;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.links:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.toggle {
+  color: white;
+}
+
+.Navbar {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2)));
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+/*# sourceMappingURL=Header.css.map */

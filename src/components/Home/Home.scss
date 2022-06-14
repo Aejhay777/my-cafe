@@ -1,0 +1,79 @@
+.home--container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../../assets/background.jpg);
+    background-position: center;
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        margin-top: 250px;
+        padding-left: 50px;
+    }
+
+    .subtext {
+        margin-top: 600px;
+        padding-left: 50px;
+        
+        .blockquote {
+            color: white;
+        }
+
+        .blockquote-footer {
+            color: rgb(243, 232, 232);
+        }
+    }
+
+}
+
+
+/* =================== MEDIA Queries (Medium Devices) ===================== */
+
+@media screen and (max-width: 1024px) { 
+    .home--container {
+
+        h1 { 
+            font-size: 130px;
+            margin-top: 300px;
+        }
+
+        .subtext {
+            margin-top: 950px;
+            padding-left: 10px;
+
+            .blockquote {
+                font-size: 30px;
+            }
+
+            .blockquote-footer {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+/* =================== MEDIA Queries (Small Devices) ===================== */
+
+@media screen and (max-width: 600px) {
+    .home--container {
+
+        h1 {
+            font-size: 70px;
+            margin-top: 300px;
+            margin-left: -15px;
+        }
+
+        .subtext {
+            margin-top: 150px;
+            padding-left: 40px;
+
+            .blockquote {
+                font-size: 25px;
+            }
+
+            .blockquote-footer {
+                font-size: 15px;
+            }
+        }
+    }
+}
