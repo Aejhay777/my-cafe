@@ -12,7 +12,9 @@
 }
 
 .best--container .card--container {
+  color: white;
   font-family: 'Pacifico', cursive;
+  background-color: #d3aa79;
 }
 
 .best--container .card--container img {

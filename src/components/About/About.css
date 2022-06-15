@@ -11,6 +11,7 @@
 }
 
 .about--container .left-column .pic {
+  background-color: #d3aa79;
   margin-top: 10px;
   margin-left: 20px;
   max-width: 45%;
@@ -38,6 +39,7 @@
 }
 
 .about--container .right-column .card .text {
+  border: 4px solid #d3aa79;
   text-align: justify;
   text-justify: inter-word;
 }
