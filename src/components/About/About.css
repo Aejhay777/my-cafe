@@ -6,14 +6,14 @@
 }
 
 .about--container .left-column {
-  margin-top: 55px;
+  margin-top: 80px;
   margin-left: -25px;
 }
 
 .about--container .left-column .pic {
-  margin-top: 50px;
-  margin-left: 30px;
-  height: 10%;
+  margin-top: 10px;
+  margin-left: 20px;
+  max-width: 45%;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -33,7 +33,7 @@
 
 .about--container .right-column .card {
   font-size: 25px;
-  margin-left: -20px;
+  margin-left: -10px;
 }
 
 .about--container .right-column .card .text {
@@ -44,10 +44,14 @@
 /* =================== MEDIA Queries (Medium Devices) ===================== */
 @media screen and (max-width: 1024px) {
   .about--container .left-column {
-    margin-top: 5px;
+    margin-top: 30px;
+    margin-left: -10px;
+  }
+  .about--container .right-column {
+    margin-top: -280px;
   }
   .about--container .right-column .subtext {
-    margin-top: -1820px;
+    margin-top: 300px;
   }
   .about--container .right-column .card {
     margin-left: 0px;
@@ -57,17 +61,17 @@
 /* =================== MEDIA Queries (Small Devices) ===================== */
 @media screen and (max-width: 600px) {
   .about--container .left-column {
-    margin-top: 5px;
+    margin-top: 15px;
   }
   .about--container .left-column .pic {
     margin-top: 30px;
-    height: 9%;
+    max-width: 44%;
   }
   .about--container .right-column {
-    margin-top: 900px;
+    margin-top: -280px;
   }
   .about--container .right-column .card {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=About.css.map */

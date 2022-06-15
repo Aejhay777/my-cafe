@@ -14,12 +14,12 @@ function About() {
   return (
     <div id='about'>
         <Container className='about--container text-center' fluid>
-            <Row className='display-1'>
+            <Row className='display-1' >
                 <Col sm={12} md={12} lg={7} className='left-column'>
-                    <Image src={pic1} className='pic'thumbnail/>
-                    <Image src={pic2} className='pic'thumbnail/>
-                    <Image src={pic3} className='pic'thumbnail/>
-                    <Image src={pic4} className='pic'thumbnail/>
+                    <Image src={pic1} className='pic' thumbnail/>
+                    <Image src={pic2} className='pic' thumbnail/>
+                    <Image src={pic3} className='pic' thumbnail/>
+                    <Image src={pic4} className='pic' thumbnail/>
                 </Col>
 
                 <Col sm={12} md={12} lg={5} className='right-column'>

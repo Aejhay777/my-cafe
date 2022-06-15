@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAC;EACb,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,uDAAgD,EAAE,6BAA6B;CACpG",
+    "sources": [
+        "Best-sellers.scss"
+    ],
+    "names": [],
+    "file": "Best-sellers.css"
+}

@@ -4,13 +4,13 @@
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../assets/pattern.png);
 
         .left-column {  
-            margin-top: 55px;
+            margin-top: 80px;
             margin-left: -25px;
 
             .pic {
-                margin-top: 50px;
-                margin-left: 30px;
-                height: 10%;
+                margin-top: 10px;
+                margin-left: 20px;
+                max-width: 45%;
                 transition: 1s;
 
                 &:hover {
@@ -31,7 +31,7 @@
 
             .card {
                 font-size: 25px;
-                margin-left: -20px;
+                margin-left: -10px;
 
                     .text {
                         text-align: justify;
@@ -47,12 +47,15 @@
 @media screen and (max-width: 1024px) { 
     .about--container {    
         .left-column {  
-            margin-top: 5px;
+            margin-top: 30px;
+            margin-left: -10px;
+
         }
 
         .right-column {
+            margin-top: -280px;
             .subtext {
-                margin-top: -1820px;
+                margin-top: 300px;
             }
 
             .card {
@@ -68,18 +71,18 @@
 @media screen and (max-width: 600px) {
     .about--container {    
         .left-column {  
-            margin-top: 5px;
+            margin-top: 15px;
             .pic {
                 margin-top: 30px;
-                height:9%;
+                max-width: 44%;
             }
         }
 
         .right-column {
-            margin-top: 900px;
+            margin-top: -280px;
 
             .card {
-                font-size: 20px;
+                font-size: 18px;
             }
         }
     }
