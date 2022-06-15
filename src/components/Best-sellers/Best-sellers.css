@@ -8,6 +8,7 @@
 .best--container .header--text {
   color: white;
   font-family: 'Pacifico', cursive;
+  text-shadow: #000 0px 0px 20px;
 }
 
 .best--container .card--container img {

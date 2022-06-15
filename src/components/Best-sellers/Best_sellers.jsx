@@ -67,7 +67,7 @@ function Best_sellers() {
                 <Card className='card--container'>
                   <Card.Img variant="top" src={imagef2} />
                   <Card.Body>
-                    <Card.Title>Card title</Card.Title>             
+                    <Card.Title>Luxe Dough</Card.Title>             
                   </Card.Body>
                 </Card>
               </Col>
@@ -76,7 +76,7 @@ function Best_sellers() {
                 <Card className='card--container'>
                   <Card.Img variant="top" src={imagef3} />
                   <Card.Body>
-                    <Card.Title>Card title</Card.Title>             
+                    <Card.Title>Chocolate Chip Muffins</Card.Title>             
                   </Card.Body>
                 </Card>
               </Col>
