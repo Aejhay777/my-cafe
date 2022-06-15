@@ -1,43 +1,38 @@
-.best--container {
-  height: 110vh;
+.location--container {
+  height: 115vh;
   width: 100%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../../assets/pattern.png);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/pattern.png);
 }
 
-.best--container .header--text {
+.location--container .header--text {
   color: white;
   font-family: 'Pacifico', cursive;
   text-shadow: #000 0px 0px 20px;
 }
 
-.best--container .card--container {
-  font-family: 'Pacifico', cursive;
+.location--container .carousel--container {
+  margin-top: 25px;
+  -webkit-transition: 0.85s;
+  transition: 0.85s;
 }
 
-.best--container .card--container img {
-  -webkit-transition: 1.5s;
-  transition: 1.5s;
-}
-
-.best--container .card--container img:hover {
+.location--container .carousel--container img {
   border-radius: 20px;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 1;
+  max-height: 770px;
 }
 
 /* =================== MEDIA Queries (Medium Devices) ===================== */
 @media screen and (max-width: 1024px) {
-  .best--container {
-    height: 90vh;
+  .location--container {
+    height: 58vh;
   }
 }
 
 /* =================== MEDIA Queries (Small Devices) ===================== */
 @media screen and (max-width: 600px) {
-  .card--container {
-    margin-top: 40px;
+  .location--container {
+    height: 50vh;
   }
 }
-/*# sourceMappingURL=Best-sellers.css.map */
+/*# sourceMappingURL=Location.css.map */

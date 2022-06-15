@@ -1,5 +1,5 @@
-.best--container {
-    height: 110vh;
+.location--container {
+    height: 115vh;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../assets/pattern.png);
 
@@ -9,18 +9,13 @@
         text-shadow: #000 0px 0px 20px;
     }
 
-    .card--container {
-        font-family: 'Pacifico', cursive;
-
-
+    .carousel--container {
+        margin-top: 25px;
+        transition: 0.85s;
+        
         img {
-            transition: 1.5s;
-
-            &:hover {
-                border-radius: 20px;
-                transform: scale(1.1);
-                z-index: 1;
-            }
+            border-radius: 20px;
+            max-height: 770px;
         }
     }
 }
@@ -28,16 +23,15 @@
 /* =================== MEDIA Queries (Medium Devices) ===================== */
 
 @media screen and (max-width: 1024px) { 
-    .best--container {
-        height: 90vh;
+    .location--container {
+        height: 58vh;
     }
 }
 
 /* =================== MEDIA Queries (Small Devices) ===================== */
 
 @media screen and (max-width: 600px) {
-        .card--container {
-            margin-top: 40px;
-
-        }
+    .location--container {
+        height: 50vh;
+    }
 }
