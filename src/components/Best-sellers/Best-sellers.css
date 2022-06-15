@@ -1,7 +1,38 @@
 .best--container {
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../../assets/pattern.png);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/pattern.png);
+}
+
+.best--container .header--text {
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+
+.best--container .card--container img {
+  -webkit-transition: 1.5s;
+  transition: 1.5s;
+}
+
+.best--container .card--container img:hover {
+  border-radius: 20px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 1;
+}
+
+/* =================== MEDIA Queries (Medium Devices) ===================== */
+@media screen and (max-width: 1024px) {
+  .best--container {
+    height: 90vh;
+  }
+}
+
+/* =================== MEDIA Queries (Small Devices) ===================== */
+@media screen and (max-width: 600px) {
+  .card--container {
+    margin-top: 40px;
+  }
 }
 /*# sourceMappingURL=Best-sellers.css.map */

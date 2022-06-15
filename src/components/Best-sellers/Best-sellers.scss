@@ -1,5 +1,42 @@
 .best--container {
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../assets/pattern.png);
+
+    .header--text {
+        color: white;
+        font-family: 'Pacifico', cursive;
+    }
+
+    .card--container {
+ 
+
+
+        img {
+            transition: 1.5s;
+
+            &:hover {
+                border-radius: 20px;
+                transform: scale(1.1);
+                z-index: 1;
+            }
+        }
+    }
+}
+
+/* =================== MEDIA Queries (Medium Devices) ===================== */
+
+@media screen and (max-width: 1024px) { 
+    .best--container {
+        height: 90vh;
+    }
+}
+
+/* =================== MEDIA Queries (Small Devices) ===================== */
+
+@media screen and (max-width: 600px) {
+        .card--container {
+            margin-top: 40px;
+
+        }
 }
