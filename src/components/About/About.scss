@@ -2,4 +2,85 @@
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../assets/pattern.png);
+
+        .left-column {  
+            margin-top: 55px;
+            margin-left: -25px;
+
+            .pic {
+                margin-top: 50px;
+                margin-left: 30px;
+                height: 10%;
+                transition: 1s;
+
+                &:hover {
+                    position: relative;
+                    transform: scale(1.3);
+                    z-index: 1;
+                }
+            }
+        }
+        
+        .right-column {
+
+            .subtext {
+                margin-top: 80px;
+                color: white;
+                font-family: 'Pacifico', cursive;
+            }
+
+            .card {
+                font-size: 25px;
+                margin-left: -20px;
+
+                    .text {
+                        text-align: justify;
+                        text-justify: inter-word;
+                    }
+            }
+
+        }
+}
+
+/* =================== MEDIA Queries (Medium Devices) ===================== */
+
+@media screen and (max-width: 1024px) { 
+    .about--container {    
+        .left-column {  
+            margin-top: 5px;
+        }
+
+        .right-column {
+            .subtext {
+                margin-top: -1820px;
+            }
+
+            .card {
+                margin-left: 0px;
+            }
+
+        }
+    }
+}
+
+/* =================== MEDIA Queries (Small Devices) ===================== */
+
+@media screen and (max-width: 600px) {
+    .about--container {    
+        .left-column {  
+            margin-top: 5px;
+            .pic {
+                margin-top: 30px;
+                height:9%;
+            }
+        }
+
+        .right-column {
+            margin-top: 900px;
+
+            .card {
+                font-size: 20px;
+            }
+        }
+    }
 }

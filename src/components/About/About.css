@@ -4,4 +4,70 @@
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../../assets/pattern.png);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/pattern.png);
 }
+
+.about--container .left-column {
+  margin-top: 55px;
+  margin-left: -25px;
+}
+
+.about--container .left-column .pic {
+  margin-top: 50px;
+  margin-left: 30px;
+  height: 10%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.about--container .left-column .pic:hover {
+  position: relative;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  z-index: 1;
+}
+
+.about--container .right-column .subtext {
+  margin-top: 80px;
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+
+.about--container .right-column .card {
+  font-size: 25px;
+  margin-left: -20px;
+}
+
+.about--container .right-column .card .text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* =================== MEDIA Queries (Medium Devices) ===================== */
+@media screen and (max-width: 1024px) {
+  .about--container .left-column {
+    margin-top: 5px;
+  }
+  .about--container .right-column .subtext {
+    margin-top: -1820px;
+  }
+  .about--container .right-column .card {
+    margin-left: 0px;
+  }
+}
+
+/* =================== MEDIA Queries (Small Devices) ===================== */
+@media screen and (max-width: 600px) {
+  .about--container .left-column {
+    margin-top: 5px;
+  }
+  .about--container .left-column .pic {
+    margin-top: 30px;
+    height: 9%;
+  }
+  .about--container .right-column {
+    margin-top: 900px;
+  }
+  .about--container .right-column .card {
+    font-size: 20px;
+  }
+}
 /*# sourceMappingURL=About.css.map */
