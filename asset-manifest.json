@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/my-cafe/static/css/main.9d5a920c.css",
+    "main.js": "/my-cafe/static/js/main.f7cf77e0.js",
+    "static/media/about-pic2.jpg": "/my-cafe/static/media/about-pic2.b91476b3507959845853.jpg",
+    "static/media/about-pic3.jpg": "/my-cafe/static/media/about-pic3.34eb2909f4f04ac94c1e.jpg",
+    "static/media/loc-image2.jpg": "/my-cafe/static/media/loc-image2.af4cdfe0ed6764b74383.jpg",
+    "static/media/loc-image1.png": "/my-cafe/static/media/loc-image1.8eed5e6579321d6b860b.png",
+    "static/media/background.jpg": "/my-cafe/static/media/background.19066435f93dd0628a81.jpg",
+    "static/media/about-pic1.jpg": "/my-cafe/static/media/about-pic1.47f80dd322b88e6e6a28.jpg",
+    "static/media/about-pic4.jpg": "/my-cafe/static/media/about-pic4.0da057b504dcff1c38d0.jpg",
+    "static/media/loc-image6.jpg": "/my-cafe/static/media/loc-image6.21569399c44ffa236b91.jpg",
+    "static/media/bestf-1.jpg": "/my-cafe/static/media/bestf-1.2b2684418a42162a2038.jpg",
+    "static/media/loc-image4.jpg": "/my-cafe/static/media/loc-image4.cb8707f9651e446d711f.jpg",
+    "static/media/bestd-2.jpg": "/my-cafe/static/media/bestd-2.4716b583e9b246f24786.jpg",
+    "static/media/loc-image3.jpg": "/my-cafe/static/media/loc-image3.2663f246f7d5ec38aaf6.jpg",
+    "static/media/bestf-3.jpg": "/my-cafe/static/media/bestf-3.8dd33ec72424b64d5d13.jpg",
+    "static/media/loc-image5.jpg": "/my-cafe/static/media/loc-image5.88bcf5fc9b8f2a8a764f.jpg",
+    "static/media/bestf-2.jpg": "/my-cafe/static/media/bestf-2.128ffbaeff3cd5c708a1.jpg",
+    "static/media/bestd-3.jpg": "/my-cafe/static/media/bestd-3.d57f37ebef29d3f8eac2.jpg",
+    "static/media/bestd-1.jpg": "/my-cafe/static/media/bestd-1.ac27b7ab604216109638.jpg",
+    "static/media/pattern.png": "/my-cafe/static/media/pattern.4fdce133e819e8c0e231.png",
+    "static/media/loc-image7.jpg": "/my-cafe/static/media/loc-image7.40abac05343489b1c3f9.jpg",
+    "index.html": "/my-cafe/index.html",
+    "main.9d5a920c.css.map": "/my-cafe/static/css/main.9d5a920c.css.map",
+    "main.f7cf77e0.js.map": "/my-cafe/static/js/main.f7cf77e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d5a920c.css",
+    "static/js/main.f7cf77e0.js"
+  ]
+}
