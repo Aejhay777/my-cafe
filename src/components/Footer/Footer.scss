@@ -1,0 +1,26 @@
+.footer {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../assets/pattern.png);
+
+    hr {
+        color: white;
+    }
+
+    .btn {
+        padding: 1px;
+        transition: 1s;
+
+        &:hover {
+            color: white;
+            background-color: rgb(211, 170, 121);
+            transform: rotate(-20deg);
+        }
+    }
+
+    .icons {
+        font-size: 30px;
+    }
+
+    .copyright {
+        text-decoration: none;
+    }
+}

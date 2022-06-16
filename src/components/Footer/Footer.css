@@ -1,0 +1,30 @@
+.footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../../assets/pattern.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/pattern.png);
+}
+
+.footer hr {
+  color: white;
+}
+
+.footer .btn {
+  padding: 1px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.footer .btn:hover {
+  color: white;
+  background-color: #d3aa79;
+  -webkit-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
+
+.footer .icons {
+  font-size: 30px;
+}
+
+.footer .copyright {
+  text-decoration: none;
+}
+/*# sourceMappingURL=Footer.css.map */
